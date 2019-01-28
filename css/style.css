@@ -19,7 +19,9 @@ body {
 
 /* ====================================================  HEADER  ==================================================== */
 
-header #logo {
+
+
+/*header #logo {
 	display:inline-block;
 	text-shadow: none; 
 	color: transparent;
@@ -27,7 +29,7 @@ header #logo {
 	background-size: contain;
 	width: 2em;
 	height: 2em;
-}
+}*/
 
 header h1 {
 	text-align:center;
@@ -156,7 +158,7 @@ input:hover[type="submit"] {
 header {		
 	display: grid;
 	grid-template-columns: 1fr [main-links] 8em [nav-end] minmax(10em, 75em) [main-rechts] 1fr;
-	background: black;
+	background: url(../img/imagesW.jpg);
 	color: white;
 }
 
